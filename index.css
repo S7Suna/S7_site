@@ -1,0 +1,27 @@
+ 
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ .header {
+    height: 169px;
+    display: flex;
+    justify-content: flex-start;
+    background: #ffde59;
+    position: relative;
+
+    img {
+        z-index: 100;
+    }
+}
+
+.bar {
+    position: absolute;
+    width: 100vw;
+    height: 33px;
+    background-color: #1e1e1e;
+    top: 123px ;
+    z-index: 0;
+}
