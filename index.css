@@ -33,11 +33,10 @@ body {
         animation: ball-bounced 3s 0s ease-in-out;
     }
 }
-
 @keyframes ball-bounced {
     0% {
-    top: 5vh;
-    left: 90vw;
+        top: 5vh;
+        left: 90vw;
     }
     33% {
         top: 100vh;
@@ -52,7 +51,114 @@ body {
         left: 95vw;
     }
 }
+.bouncingball1 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, 50%);
+    animation: ball-bounced1 5s 0s ease-in-out infinite;
 
+}
+@keyframes ball-bounced1 {
+    0% {
+        top: 20vh;
+        left: 15vw;
+    }
+    33% {
+        top: 100vh;
+        left: 100vw;
+    }
+    66% {
+        top: 50vh;
+        left: 0vw;
+    }
+    100% {
+        top: 20vh;
+        left: 15vw;
+    }
+}
+
+.bouncingball2 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, 50%);
+    animation: ball-bounced2 3s 0s ease-in-out infinite;
+
+}
+@keyframes ball-bounced2 {
+    0% {
+        top: 90vh;
+        left: 0vw;
+    }
+    33% {
+        top: 50vh;
+        left: 100vw;
+    }
+    66% {
+        top: 0vh;
+        left: 50vw;
+    }
+    100% {
+        top: 90vh;
+        left: 0vw;
+    }
+}
+
+
+.bouncingball3 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, 50%);
+    animation: ball-bounced3 1s 0s ease-in-out infinite;
+
+}
+@keyframes ball-bounced3 {
+    0% {
+        top: 90vh;
+        left: 15vw;
+    }
+    33% {
+        top: 30vh;
+        left: 100vw;
+    }
+    66% {
+        top: 0vh;
+        left: 90vw;
+    }
+    100% {
+        top: 90vh;
+        left: 15vw;
+    }
+}
+
+.bouncingball4 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, 50%);
+    animation: ball-bounced4 9s 0s ease-in-out infinite;
+
+}
+@keyframes ball-bounced4 {
+    0% {
+        top: 70vh;
+        left: 15vw;
+    }
+    33% {
+        top: 50vh;
+        left: 100vw;
+    }
+    66% {
+        top: 0vh;
+        left: 50vw;
+    }
+    100% {
+        top: 70vh;
+        left: 15vw;
+    }
+}
 .galerie{display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:10px;
